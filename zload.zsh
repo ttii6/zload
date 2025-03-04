@@ -1,7 +1,7 @@
 # Zsh Plugin Manager - zload.zsh
 ZLOAD_HOME="${ZLOAD_HOME:-$HOME/.zload}"
 ZLOAD_PLUGINS_DIR="${ZLOAD_PLUGINS_DIR:-${ZLOAD_DIR}/plugins}"
-ZLOAD_SNIPPETS_DIR="${ZLOAD_PLUGINS_DIR:-${ZLOAD_DIR}/snippets}"
+ZLOAD_SNIPPETS_DIR="${ZLOAD_SNIPPETS_DIR:-${ZLOAD_DIR}/snippets}"
 DEFAULT_BRANCHES=("master" "main")
 
 # Regular arrays to store parsed plugin data
