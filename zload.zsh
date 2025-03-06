@@ -194,7 +194,7 @@ load() {
     done
     
     # Compile the script and .zcompdump only if they have changed
-    my_zcompile $0
+    my_zcompile "$(realpath "$0")"
     my_zcompile "$comp_dumpfile"
 }
 
