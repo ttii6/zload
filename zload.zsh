@@ -190,7 +190,9 @@ load() {
     
     # Source files
     for file in "${ZPLUGINS_SOURCE[@]}"; do
-        source "$file"
+        if [[ -f "$file" ]]; then
+            source "$file"
+        fi
     done
     
     # Compile the script and .zcompdump only if they have changed
