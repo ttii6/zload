@@ -200,9 +200,9 @@ load() {
     my_zcompile "$comp_dumpfile"
 }
 
-main() {
+zload_main() {
     parse
     load
 }
 
-main
+zload_main
